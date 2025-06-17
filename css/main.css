@@ -20,3 +20,26 @@ p {
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 	display: inline-block;
 }
+
+button {
+	margin-top: 30px;
+	padding: 10px 20px;
+	font-size: 1em;
+	background-color: #956FFF;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+button:hover {
+	background-color: #8254FF;
+}
+
+#motivation {
+	margin-top: 20px;
+	font-style: italic;
+	color: #555;
+	font-size: 1.1em;
+}
